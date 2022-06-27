@@ -1,0 +1,437 @@
+<html>
+    <head>
+        <title> Assignment Java Secript (1)</title>
+    </head>
+
+<link rel="stylesheet" href="Css/bootstrap.min.css">
+<link rel="stylesheet" href="Css/css.css">
+
+    <body>
+        <h1 id="demo"> (1)</h1>
+
+ 
+<div class="container ">
+    <div class="row">
+        <div class="col-md-4">
+            <!--   Q1: Write a program that allow to user enter number then printit   -->    
+            <div class="p-3">
+            <div class="card ">
+                <div class="card-header">
+                    <p class="text-muted">Q1: Write a program that allow to user enter number then printit </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  
+                  <li class="list-group-item d-flex justify-content-between">
+                     
+                   
+                    <input  id="E-no"  class="form-control " placeholder="Enter number" type="number">
+                 
+                    <button onclick="PrintNumber()" class="btn btn-danger py-2 m-2 w-50">Print#</button>
+                  
+                  </li>
+                  <li class="list-group-item "><h4  class="text-muted fs-6 " id="result">Result </h4></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-3">
+          <!--   Q2: Write a program that take number from user then print yes 
+                 if that number can divide by 3 and 4 otherwise print no -->
+            <div class="card" >
+                <div class="card-header">
+                    <p class="text-muted">Q2:Write a program that take number from user then print yes if that number can divide by 3
+                        and 4 otherwise print no</p> 
+                </div>
+                <ul class="list-group list-group-flush">
+                  
+                  <li class="list-group-item d-flex justify-content-between">
+                     
+                    <input  id="input-Q2"  class="form-control " placeholder="Enter number" type="number">
+                 
+                    <button onclick="Print_Yes_No()" class="btn btn-danger py-2 m-2 w-50">Print </button>
+                  
+                  </li>
+                  <li class="list-group-item "><h4  class="text-muted fs-6 " id="result-Q2">Result: </h4></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <!--   Q3: Write a program that allows the user to insert 2 integers then print the max -->
+            <div class="p-3">
+            <div class="card" >
+                <div class="card-header">
+                    <p class="text-muted">Q3:Write a program that allows the user to insert 2 integers then print the max</p> 
+                </div>
+                <ul class="list-group list-group-flush">
+                  
+                  <li class="list-group-item d-flex justify-content-between">
+                 
+                    <input  id="input-num1-Q3"  class="form-control m-1" type="number" placeholder=" first number">
+                    
+                   
+                    <input  id="input-num2-Q3"  class="form-control m-1" type="number" placeholder=" secaned number">
+                      
+                  </li>
+                  <li  class="list-group-item">
+                    <button onclick="Print_Max()" class="btn btn-danger">print Max</button>
+                  </li>
+                  <li class="list-group-item "><h4  class="text-muted fs-6 " id="result-Q3">Result: </h4></li>
+                </ul>
+              </div>
+        
+            </div>    
+        </div>
+    </div>
+</div>
+
+<div class="container ">
+    <div class="row">
+        <div class="col-md-4">
+          <!--   Q4: Write a program that allows the user to insert an integer then print negative if it is
+                 negative number otherwise print positive. -->
+
+           <div class="p-3">
+            <div class="card ">
+                <div class="card-header">
+                    <p class="text-muted">Q4:Write a program that allows the user to insert 2 integers then print the max </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  
+                  <li class="list-group-item d-flex justify-content-between">
+                     
+                   
+                    <input  id="input-Q4"   class="form-control " placeholder="Enter number" type="number">
+             
+                    <button onclick="Print_PositiveNegative()" class="btn btn-danger py-2 m-2 w-50"> + or - </button>
+                  
+                  </li>
+                  <li class="list-group-item "><h4  class="text-muted fs-6 " id="result-Q4">Result </h4></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-3">
+                <!--   Q5: Write a program that take 3 integers from user then print the max element
+                and the min element. -->
+        
+            <div class="card" >
+                <div class="card-header">
+                    <p class="text-muted">Q5:Write a program that take 3 integers from user then print the max element
+                        and the min element.</p> 
+                </div>
+                <ul class="list-group list-group-flush">
+                  
+                  <li class="list-group-item ">
+                     
+                    <input  id="input-num1-Q5"  class="form-control m-1 w-50" placeholder="Enter first number" type="number">
+                    <input  id="input-num2-Q5"  class="form-control m-1 w-50" placeholder="Enter secand number" type="number">
+                    <input  id="input-num3-Q5"  class="form-control  m-1 w-50" placeholder="Enter third number" type="number">
+                 
+                    <button onclick="Print_largest()" class="btn btn-danger py-2 m-2 w-50">largest </button>
+                  
+                  </li>
+                  <li class="list-group-item "><h4  class="text-muted fs-6 " id="result-Q5">Result: </h4></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+           <!--   Q6: Write a program that allows the user to insert integer number then
+                  check If a number is oven or odd --> 
+           <div class="p-3">
+            <div class="card" >
+                <div class="card-header">
+                    <p class="text-muted">Q6:Write a program that allows the user to insert integer number then 
+                        check If a number is oven or odd</p> 
+
+                </div>
+                <ul class="list-group list-group-flush">
+                  
+                  <li class="list-group-item d-flex justify-content-between">
+                 
+                    
+                    <input  id="input-num-Q6"  class="form-control m-1" type="number" placeholder=" Enter number">
+                      
+                  </li>
+                  <li  class="list-group-item">
+                    <button onclick="Print_EvenOdd()" class="btn btn-danger">Even or Odd</button>
+                  </li>
+                  <li class="list-group-item "><h4  class="text-muted fs-6 " id="result-Q6">Result: </h4></li>
+                </ul>
+              </div>
+        
+            </div>    
+        </div>
+    </div>
+
+</div>
+
+<div class="container ">
+    <div class="row">
+        <div class="col-md-4">
+         <!--   Q8: Write a program that take character from user then if it is vowel chars (a,e,I,o,u) 
+                then print vowel otherwise print consonant -->
+           <div class="p-3">
+            <div class="card ">
+                <div class="card-header">
+                    <p class="text-muted">Q8:Write a program that take character from user then if it is vowel chars (a,e,I,o,u) 
+                        then print vowel otherwise print consonant </p>
+                 </div>
+                <ul class="list-group list-group-flush">
+                  
+                  <li class="list-group-item d-flex justify-content-between">
+                     
+                   
+                    <input  id="input-char-Q8" maxlength="1" size="1"  class="form-control " placeholder="Enter character" type="text" >
+             
+                    <button onclick="Print_vowel_consonant()" class="btn btn-danger py-2 m-2 "> Vowel / Consonant </button>
+                  
+                  </li>
+                  <li class="list-group-item "><h4  class="text-muted fs-6 " id="result-Q8">Result </h4></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-3">
+            <!--   Q9: Write a program that allows user to insert integer then print all numbers between 1 to
+                    that’s number -->
+
+            <div class="card" >
+                <div class="card-header">
+                    <p class="text-muted">Q9: Write a program that allows user to insert integer then print all numbers between 1 to
+                        that’s number</p> 
+                </div>
+                <ul class="list-group list-group-flush">
+                  
+                  <li class="list-group-item ">
+                     
+                    <input  id="input-num-Q9"  class="form-control m-1 w-50" placeholder="Enter number" type="number">
+                  
+                    <button onclick="Print_all_numbers()" class="btn btn-danger py-2 m-2 w-50">print all numbers </button>
+                  
+                  </li>
+                  <li class="list-group-item "><h4  class="text-muted fs-6 " id="result-Q9">Result: </h4></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+           <!--  Q10: Write a program that allows userto insert integerthen print a multiplication table up to 12 -->
+ 
+           <div class="p-3">
+            <div class="card" >
+                <div class="card-header">
+                    <p class="text-muted">Q10:Write a program that allows userto insert integerthen print a multiplication table up to 12</p> 
+
+                </div>
+                <ul class="list-group list-group-flush">
+                  
+                  <li class="list-group-item d-flex justify-content-between">
+                 
+                    
+                    <input  id="input-num-Q10"  class="form-control m-1" type="number" placeholder=" Enter number">
+                      
+                  </li>
+                  <li  class="list-group-item">
+                    <button onclick="multiplication_table()" class="btn btn-danger">Multiplication Table</button>
+                  </li>
+                  <li class="list-group-item "><h4  class="text-muted fs-6 " id="result-Q10">Result: </h4></li>
+                </ul>
+              </div>
+        
+            </div>    
+        </div>
+    </div>
+
+</div>
+
+<div class="container ">
+    <div class="row">
+        <div class="col-md-4">
+         <!--   Q11: Write a program that allow to user to insert number then print all even numbers 
+            between 1 to this number -->
+
+           <div class="p-3">
+            <div class="card ">
+                <div class="card-header">
+                    <p class="text-muted">Q11:Write a program that allow to user to insert number then print all even numbers 
+                        between 1 to this number </p>
+                 </div>
+                <ul class="list-group list-group-flush">
+                  
+                  <li class="list-group-item d-flex justify-content-between">
+                     <input  id="input-num-Q11"   class="form-control " placeholder="Enter number" type="number" >
+                     <button onclick="print_all_even()" class="btn btn-danger py-2 m-2 ">All Even </button>
+                  
+                  </li>
+                  <li class="list-group-item "><h4  class="text-muted fs-6 " id="result-Q11">Result </h4></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-3">
+            <!--   Q12:  Write a program that take two integers then print the power -->
+
+            <div class="card" >
+                <div class="card-header">
+                    <p class="text-muted">Q12:  Write a program that take two integers then print the power</p> 
+                </div>
+                <ul class="list-group list-group-flush">
+                  
+                  <li class="list-group-item ">
+                   
+
+                    <input  id="input-num1-Q12"  class="form-control m-1 w-50" placeholder="Enter number" type="number">
+                    <input  id="input-num2-Q12"  class="form-control m-1 w-50" placeholder="Enter number" type="number">
+                  
+                     
+                  </li>
+                  <li class="list-group-item "> <button onclick="Power()" class="btn btn-danger py-2 m-2 w-50">Power</button>
+                </li>
+                  <li class="list-group-item "><h4  class="text-muted fs-6 " id="result-Q12">Result: </h4></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+           <!--   Q13: Write a program to enter marks of five subjects and calculate total, average and 
+            percentage -->
+
+           <div class="p-3">
+            <div class="card" >
+                <div class="card-header">
+                    <p class="text-muted">Q13: Write a program to enter marks of five subjects and calculate total, average and 
+                        percentage </p> 
+
+                </div>
+                <ul class="list-group list-group-flush">
+                  
+                  <li class="list-group-item d-flex flex-wrap justify-content-between">
+                 
+                    
+                    <input  id="input-num1-Q13"  class="form-control m-1 w-50" type="number" placeholder=" mark subject 1">
+                    <input  id="input-num2-Q13"  class="form-control m-1 w-50" type="number" placeholder=" mark subject 2">
+                    <input  id="input-num3-Q13"  class="form-control m-1 w-50" type="number" placeholder=" mark subject 3">
+                    <input  id="input-num4-Q13"  class="form-control m-1 w-50" type="number" placeholder=" mark subject 4">
+                    <input  id="input-num5-Q13"  class="form-control m-1 w-50" type="number" placeholder=" mark subject 5">
+                   
+                  </li>
+                  <li  class="list-group-item">
+                    <button onclick="subjects()" class="btn btn-danger">Calculate:</button>
+                  </li>
+                  <li class="list-group-item "><h4  class="text-muted fs-6 " id="result-Q13"> Result</h4></li>
+                </ul>
+              </div>
+        
+            </div>    
+        </div>
+    </div>
+
+</div>
+
+
+<!--   Q14: Write a program that allow to user to insert number then print all even numbers 
+            between 1 to this number -->
+
+            <div class="container bg-info">
+                <p>Write a program to input month number and print number of days in that 
+                    month.</p>
+                <label for="input-num-Q14"> Enter number :</label>
+                <input  id="input-num-Q14"  class="form-control" type="number" size="2" max-size="2" >
+                
+                <button onclick="printDays()" class="btn btn-danger">Day of month</button>
+                <h4  id="result-Q14"></h4>
+                </div>
+
+
+
+<!--  Write a program to create Simple Calculator -->
+            
+      <div class="p-3 mx-auto w-50">
+            <div class="card " >
+                <div class="card-header">
+                    <p class="text-muted">Q :Write a program to create Simple Calculator</p>
+                 </div>
+                <ul class="list-group list-group-flush">
+                  
+                  <li class="list-group-item ">
+                     <input  id="input-num-Q11"   class="form-control " placeholder="Enter number" type="number" >
+                     </li>
+                     <li class="list-group-item d-flex justify-content-between">
+                        <button  onclick="n-1" class="btn btn-danger py-2 m-2 ">0 </button>
+                        
+                        <button onclick="" class="btn btn-danger py-2 m-2 ">1 </button>
+                        <button onclick="" class="btn btn-danger py-2 m-2 ">2 </button>
+                        <button onclick="" class="btn btn-danger py-2 m-2 ">3 </button>
+                        <button onclick="" class="btn btn-danger py-2 m-2 ">4 </button>
+                        <button onclick="" class="btn btn-danger py-2 m-2 ">5 </button>
+                        <button onclick="" class="btn btn-danger py-2 m-2 ">6 </button>
+                        <button onclick="" class="btn btn-danger py-2 m-2 ">7 </button>
+                        <button onclick="" class="btn btn-danger py-2 m-2 ">8 </button>
+                        <button onclick="" class="btn btn-danger py-2 m-2 ">9 </button>
+
+                     </li> 
+                  
+                     <li class="list-group-item d-flex justify-content-between">
+                        <button onclick="" class="btn btn-danger py-2 m-2 ">+ </button>
+                        <button onclick="" class="btn btn-danger py-2 m-2 ">- </button>
+                        <button onclick="" class="btn btn-danger py-2 m-2 ">* </button>
+                        <button onclick="" class="btn btn-danger py-2 m-2 ">/ </button>
+                        <button onclick="" class="btn btn-danger py-2 m-2 ">C </button>
+                        <button onclick="" class="btn btn-danger py-2 m-2 ">Ans </button>
+                        
+
+                     </li> 
+
+                     <li>Calculator</li>
+                  </ul>
+              </div>
+            </div>      
+
+
+            <form name = "form1">
+	
+              <!-- This input box shows the button pressed by the user in calculator. -->
+              <input id = "calc" type ="text" name = "answer"> <br> <br>
+              <!-- Display the calculator button on the screen. -->
+              <!-- onclick() function display the number prsses by the user. -->
+              <input type = "button" value = "1" onclick = "form1.answer.value += '1' ">
+              <input type = "button" value = "2" onclick = "form1.answer.value += '2' ">
+              <input type = "button" value = "3" onclick = "form1.answer.value += '3' ">
+               <input type = "button" value = "+" onclick = "form1.answer.value += '+' ">
+              <br> <br>
+              
+              <input type = "button" value = "4" onclick = "form1.answer.value += '4' ">
+              <input type = "button" value = "5" onclick = "form1.answer.value += '5' ">
+              <input type = "button" value = "6" onclick = "form1.answer.value += '6' ">
+              <input type = "button" value = "-" onclick = "form1.answer.value += '-' ">
+              <br> <br>
+              
+              <input type = "button" value = "7" onclick = "form1.answer.value += '7' ">
+              <input type = "button" value = "8" onclick = "form1.answer.value += '8' ">
+              <input type = "button" value = "9" onclick = "form1.answer.value += '9' ">
+              <input type = "button" value = "*" onclick = "form1.answer.value += '*' ">
+              <br> <br>
+              
+              
+              <input type = "button" value = "/" onclick = "form1.answer.value += '/' ">
+              <input type = "button" value = "0" onclick = "form1.answer.value += '0' ">
+                <input type = "button" value = "." onclick = "form1.answer.value += '.' ">
+              <!-- When we click on the '=' button, the onclick() shows the sum results on the calculator screen. -->
+              <input type = "button" value = "=" onclick = "form1.answer.value = eval(form1.answer.value) ">
+              <br> 
+              <!-- Display the Cancel button and erase all data entered by the user. -->
+              <input type = "button" value = "Clear All" onclick = "form1.answer.value = ' ' " id= "clear" >
+              <br> 
+              
+            </form>
+
+<script src="JS/myjavas.js"></script>
+
+    </body>
+</html>
